@@ -1,0 +1,19 @@
+Problem 2 :
+
+c1 and c_rand both have same distribution in each iteration and hence they follow Hoeffding Inequality.
+
+Answer : [d]
+
+Problem 3:
+
+Wrong output comes when one of target function or hypothesis gives wrong output while other one gives correct output.
+P(wrong) = mu*lambda + (1-lambda)*(1-mu)
+
+Answer : [e]
+
+Problem 4:
+
+P(wrong) = 1 - lambda - mu(1 - 2*lambda)
+For it to be independent of mu 1-2*lambda = 0 or lambda = 0.5
+
+Answer : [b]
