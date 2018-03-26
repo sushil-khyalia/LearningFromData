@@ -1,0 +1,85 @@
+Problem 1:
+
+2Me^(-2(epsilon)^2*N) =< 0.03
+2*e^(-2*0.05*0.05*N) =< 0.03/M
+e^(-2*0.05*0.05*N) =< 0.015
+-2*0.05*0.05*N =< ln(0.015)
+2*0.05*0.05*N >= -ln(0.015)
+N >= -ln(0.015/M)/0.005
+
+M = 1
+
+N >= -ln(0.015)/0.005
+N >= 840
+
+Answer : [b]
+
+Problem 2:
+
+N >= -ln(0.0015)/0.005
+N >= 1301
+
+Answer : [c]
+
+Problem 3:
+
+N >= -ln(0.00015)/0.005
+N >= 1761
+
+Answer : [d]
+
+Problem 4:
+
+In any 5 point hypothesis if we have same sign on the opposite sides of plane formed by the 3 points of different sign we cannot break them with any perceptron model in R3.
+
+Answer : [b]
+
+Problem 5:
+
+The growth function is either 2^N or a polynomial in N so (i), (ii) and (v) are the only possible growth functions.
+
+Answer : [b]
+
+Problem 6:
+
+As we have only +ve intervals the hypothesis set will have a break point when we have the smallest number of elements with 3 or more + ve intervals.
+This occurs when number of elements is 5 and the hypothesis missing will be +1, -1, +1, -1, +1.
+
+Answer : [c]
+
+Problem 7:
+
+Choose four places out of N+1 gaps formed by N points. This will correspond to one way.
+Also if elements are only from one of the arbitarily chosen intervals. Then choose 2 points out of the N+1 gaps. This will correspond to one way.
+Also case when all are -1.
+
+So total equals (N+1)C4 + (N+1)C2 + 1
+
+Answer : [c]
+
+Problem 8:
+
+As done in 6 choose a minimal number of points in which we can have M+1 +ve intervals.
+This occurs when number of elements is 2M+1 and the hypothesis missing will be +1,-1,+1 ....,-1,+1.
+
+Answer : [d]
+
+Problem 9:
+
+1,3 can be shattered easily by a triangle.
+5 points can be shattered in the case of a convex pentagon.
+0,1,4,5 +1 can be shown easily. For 2 +1 create a triangle with one side as line joining the 2 +1 and having a negligible height.
+For 3 +1 create a triangle with these 3 points.
+
+For 7 points if we have a convex polygon formed by them. The case where 3 adjacent vertices and one other vertex +1 is not possible.
+If they form a concave polygon then the case where the vertex coming inside is -1 and rest are +1 is not possible.
+
+So 7 points cannot be shattered by the triangle learning model.
+
+Answer : [d]
+
+Problem 10:
+
+It is the same case interval in a linear case and has the growth function equal to (N+1)C2 + 1.
+
+Answer : [b]
