@@ -71,7 +71,7 @@ Problem 9:
 0,1,4,5 +1 can be shown easily. For 2 +1 create a triangle with one side as line joining the 2 +1 and having a negligible height.
 For 3 +1 create a triangle with these 3 points.
 
-For 7 points if we have a convex polygon formed by them. The case where 3 adjacent vertices and one other vertex +1 is not possible.
+For 7 points if we have a convex polygon formed by them. The case where +1 are alternatively placed(in the end only 2 will be adjacent) is not possible.
 If they form a concave polygon then the case where the vertex coming inside is -1 and rest are +1 is not possible.
 
 So 7 points cannot be shattered by the triangle learning model.
@@ -83,4 +83,3 @@ Problem 10:
 It is the same case interval in a linear case and has the growth function equal to (N+1)C2 + 1.
 
 Answer : [b]
- 
