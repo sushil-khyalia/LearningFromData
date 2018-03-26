@@ -83,3 +83,4 @@ Problem 10:
 It is the same case interval in a linear case and has the growth function equal to (N+1)C2 + 1.
 
 Answer : [b]
+ 
